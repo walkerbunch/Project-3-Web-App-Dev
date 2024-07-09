@@ -1,0 +1,98 @@
+.App {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  background-image: radial-gradient(circle, magenta 5%, black);
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+h1 {
+  background-color: black;
+  margin-top: 0;
+  grid-column: 1/7;
+  color: white;
+  text-shadow: 1px 1px 3px white;
+  padding: 20px;
+  border-bottom: solid;
+  border-color: white;
+  border-width: 2px;
+  box-shadow: 0px 0px 8px white;
+}
+
+button {
+  grid-column: 1/7;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-size: 25px;
+  background-color: white;
+  color: black;
+  box-shadow: 0px 0px 10px white;
+  border-style: outset;
+  border-color: white;
+  border-radius: 7px;
+  padding: 15px;
+}
+
+div {
+  color: white;
+  text-shadow: 2px 2px 3px black;
+  grid-column: 1/7;
+}
+
+img {
+  border-style: solid;
+  border-color: black;
+  border-radius: 16px;
+  box-shadow: 0px 0px 15px white;
+  margin: 1%;
+}
+
+h2 {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+p {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+.instructions {
+  margin-top: 2%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 5px;
+}
+
+footer {
+  grid-column: 1/7;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  text-shadow: 1px 1px 3px white;
+  padding: 0.5%;
+  border-top: solid;
+  border-color: white;
+  border-width: 2px;
+  box-shadow: 0px 0px 8px white;
+}
+
+a:link {
+  color: white;
+}
+a:visited {
+  color: white;
+}
