@@ -5,6 +5,5 @@ This web app uses React, JSX, and TheCocktailDB API to generate a random cocktai
 Every button-press or re-load of the page will yield a new drink.
 The page displays the drink's name, an image, the ingredients, and instructions.
 All content on the webpage pulls from the API except for the header, button, and accompanying text.
-A new drink is generated on each button press.
 
 Link to deployment site: https://kz2y7j.csb.app/
